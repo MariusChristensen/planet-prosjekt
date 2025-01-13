@@ -50,3 +50,4 @@ Siden skal hostes på GitHub Pages (gratis hosting-tjeneste, her er en [quicksta
 
 Bruk denne malen som utgangspunkt for layout og struktur. La dere gjerne inspirere av fargevalg og fonter, men unngå å lage en blåkopi, gjør den til deres egen.
 
+![Planeteksempel](assets/img/planeteksempel.png)
