@@ -4,29 +4,43 @@
   padding: 0;
   box-sizing: border-box;
 }
-.navbar{
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(81, 87, 103);
+}
+
+.navbar {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.navdiv{
+
+.navdiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.logo a{
+.logo a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 35px;
   font-weight: 600;
   color: white;
 }
-li{
+li {
   list-style: none;
   display: inline-block;
 }
-li a{
+li a {
   text-decoration: none;
   color: white;
   font-size: 18px;
@@ -35,35 +49,92 @@ li a{
 }
 
 body {
-background-color: rgb(81, 87, 103)
+  background-color: rgb(81, 87, 103);
 }
-h1{
+h1 {
   margin: 30px;
   text-align: center;
   color: white;
   font-size: 96px;
   padding-bottom: 50px;
 }
-.home-content{
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  margin-bottom: 30px;
+}
+.home-content {
   display: flex;
   gap: 1em;
   flex-direction: row;
   margin: 25px;
   justify-content: center;
   align-items: center;
-  
 }
-p{
-  font-family: Arial, Helvetica, sans-serif;
+p {
   margin-left: 20px;
   margin-right: 60px;
   color: white;
   font-size: 24px;
-  /* border: 10px solid red */
 }
-.home-img{
+.home-img {
   margin-right: 85px;
   width: 800px;
-  border-radius: 10px;
-  /* border: 10px solid red */
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img-container img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  padding-top: 50px;
+  scroll-margin-top: 100px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
 }
