@@ -117,6 +117,17 @@ section {
   scroll-margin-top: 100px;
 }
 
+/*img width + height adjustments*/
+#info-container > img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*adjustments made for h2 so it stays inside img*/
+#info-container > h2 {
+  margin: -5% 55% 0% 1%;
+}
+
 footer {
   background-color: black;
   padding: 20px;
