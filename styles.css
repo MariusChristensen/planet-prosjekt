@@ -35,5 +35,33 @@ li a{
 }
 
 body {
-  background-image: url("/assets/img/pexels-pixabay-34521.jpg");
+background-color: rgb(81, 87, 103)
+}
+h1{
+  margin: 30px;
+  text-align: center;
+  color: white;
+  font-size: 96px;
+  padding-bottom: 50px;
+}
+.home-content{
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  margin: 25px;
+  justify-content: center;
+  align-items: center;
+  
+}
+p{
+  margin-left: 20px;
+  margin-right: 60px;
+  color: white;
+  font-size: 24px;
+  /* border: 10px solid red */
+}
+.home-img{
+  margin-right: 85px;
+  width: 800px;
+  /* border: 10px solid red */
 }
