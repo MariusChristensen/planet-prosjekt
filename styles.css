@@ -63,5 +63,6 @@ p{
 .home-img{
   margin-right: 85px;
   width: 800px;
+  border-radius: 10px;
   /* border: 10px solid red */
 }
