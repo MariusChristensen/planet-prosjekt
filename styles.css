@@ -118,7 +118,7 @@ section {
 }
 
 /*img width + height adjustments*/
-#info-container {
+.info-container {
   background-image: url(../assets/img/mars.jpg);
   background-size: cover;
   min-width: 100%;
@@ -129,18 +129,18 @@ section {
 }
 
 /*adjustments made for h2 so it stays inside img*/
-#info-container > h2 {
+.info-container > h2 {
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 62%;
 }
 
-#info-text {
+.info-text {
   color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
   padding: 2%;
 }
 
-#info-text > ul > li {
+.info-text > ul > li {
   margin: 1%;
 }
 
