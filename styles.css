@@ -118,21 +118,20 @@ section {
 }
 
 /*img width + height adjustments*/
-#info-container > img {
-  max-width: 100%;
+#info-container {
+  background-image: url(../assets/img/mars.jpg);
+  background-size: cover;
+  min-width: 100%;
+  width: 100vh;
   height: auto;
+  margin-top: 2%;
+  padding-top: 44%;
 }
 
 /*adjustments made for h2 so it stays inside img*/
 #info-container > h2 {
   font-family: Arial, Helvetica, sans-serif;
-  margin: -5% 55% 2% 1%;
-}
-
-#info-container {
-  max-height: 1000px;
-  max-width: 100%;
-  overflow: hidden;
+  margin-right: 62%;
 }
 
 #info-text {
