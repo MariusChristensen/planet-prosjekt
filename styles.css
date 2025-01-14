@@ -130,13 +130,15 @@ section {
 
 /*adjustments made for h2 so it stays inside img*/
 .info-container > h2 {
+  color: #D29064;
   font-family: Arial, Helvetica, sans-serif;
-  margin-right: 62%;
+  margin: 0 66% 0 0;
 }
 
 .info-text {
   color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
   padding: 2%;
 }
 
