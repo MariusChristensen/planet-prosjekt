@@ -133,7 +133,7 @@ section {
   
 }
 
-/*adjustments made for h2 so it stays inside info container*/
+/*adjustments made for h2 inside info container*/
 #info-container > h2 {
   color: #d29064;
   font-family: Arial, Helvetica, sans-serif;
