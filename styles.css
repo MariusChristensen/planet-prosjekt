@@ -117,8 +117,8 @@ section {
   scroll-margin-top: 100px;
 }
 
-/*img width + height adjustments*/
-.info-container {
+/*info container adjustments + img*/
+#info-container {
   background-image: url(../assets/img/mars.jpg);
   background-size: cover;
   background-position: center;
@@ -133,8 +133,8 @@ section {
   
 }
 
-/*adjustments made for h2 so it stays inside img*/
-.info-container > h2 {
+/*adjustments made for h2 so it stays inside info container*/
+#info-container > h2 {
   color: #d29064;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 35px;
