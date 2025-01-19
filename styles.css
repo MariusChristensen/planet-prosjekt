@@ -153,7 +153,7 @@ section {
 
 /* Info container styling */
 #info-container {
-  background-image: url(../assets/img/mars.jpg);
+  background-image: url(./assets/img/mars.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
